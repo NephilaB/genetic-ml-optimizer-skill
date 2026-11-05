@@ -1,0 +1,25 @@
+{
+  "skill": "genetic-ml-optimizer",
+  "test_cases": [
+    {
+      "input": "optimise mes hyperparamètres avec un algorithme génétique",
+      "should_trigger": true
+    },
+    {
+      "input": "utilise un GA pour trouver la meilleure architecture de réseau",
+      "should_trigger": true
+    },
+    {
+      "input": "quel est le meilleur optimiseur génétique pour mon modèle ML",
+      "should_trigger": true
+    },
+    {
+      "input": "explique-moi le gradient descent",
+      "should_trigger": false
+    },
+    {
+      "input": "écris un script Python simple",
+      "should_trigger": false
+    }
+  ]
+}

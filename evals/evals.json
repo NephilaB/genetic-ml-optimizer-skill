@@ -1,0 +1,20 @@
+{
+  "skill": "genetic-ml-optimizer",
+  "test_cases": [
+    {
+      "name": "hpo_xgboost",
+      "input": "Optimise les hyperparamètres d'un modèle XGBoost sur mon dataset de classification",
+      "assertions": ["Génère du code PyGAD", "Définit fitness avec cross-validation", "Utilise mutation adaptive ou élitisme"]
+    },
+    {
+      "name": "nas_simple",
+      "input": "Trouve la meilleure architecture de réseau de neurones pour MNIST avec un algorithme génétique",
+      "assertions": ["Propose encodage d'architecture en gènes", "Inclut contraintes", "Utilise template GA"]
+    },
+    {
+      "name": "function_optimization",
+      "input": "Optimise la fonction de Rastrigin en 10 dimensions avec un GA",
+      "assertions": ["Fournit code exécutable", "Configure population et générations raisonnables", "Explique les paramètres"]
+    }
+  ]
+}
